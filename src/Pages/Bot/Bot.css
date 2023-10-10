@@ -1,0 +1,24 @@
+.bot {
+  width: 100px;
+  position: fixed;
+  right: 15px;
+  bottom: 100px;
+  cursor: pointer;
+  animation: moveUpDown 1s infinite alternate;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+.bot-container {
+  position: fixed;
+  right: 15px;
+  bottom: 110px;
+  cursor: pointer;
+}

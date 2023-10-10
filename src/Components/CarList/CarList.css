@@ -1,0 +1,19 @@
+.hatchcar-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.car-name {
+  text-align: center;
+}
+.cars-images {
+  width: 370px;
+}
+.head-line {
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.car-item {
+  margin-left: 10px;
+}

@@ -1,0 +1,32 @@
+.location-img {
+  width: 100%;
+  background-size: contain;
+  margin-top: 10px;
+}
+.location-imgholder {
+  position: relative;
+  z-index: 0;
+}
+.side-heading {
+  position: absolute;
+  z-index: 1;
+  top: 190px;
+  left: 50px;
+}
+.select-flex > .select-menu {
+  width: 500px;
+  margin: 5px;
+  text-align: center;
+}
+.select-flex {
+  display: flex;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.select-btn {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.select-btn > Button {
+  background-color: rgba(2, 2, 61, 0.945);
+}

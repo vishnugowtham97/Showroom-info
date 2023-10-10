@@ -1,0 +1,46 @@
+.home-head {
+  text-align: center;
+}
+.home-para {
+  text-align: justify;
+  margin-top: 20px;
+}
+.spec-contaniner,
+.gallery-container,
+.highlight-container {
+  margin-top: 100px;
+}
+.home-content {
+  margin: 5rem;
+  padding: 0px 50px;
+}
+.image-contain {
+  padding: 0px 50px;
+  margin-top: 6rem;
+}
+.image-contain img {
+  width: 100%;
+  height: 580px;
+  background-size: contain;
+}
+
+.video-container {
+  width: 92.5%;
+  padding: 20px;
+  height: 450px;
+  margin-left: 50px;
+  margin-top: 8rem;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .video-container {
+    width: 100%;
+    margin: 0%;
+  }
+}

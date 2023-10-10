@@ -1,0 +1,42 @@
+.specification-container {
+  background-color: lightgray;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  margin-top: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 1.5px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+.selected-image {
+  margin-left: 7rem;
+}
+
+.selected-image img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+.selected-button {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+.img-content {
+  text-align: center;
+  margin: 3rem;
+}

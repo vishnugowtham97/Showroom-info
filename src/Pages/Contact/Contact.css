@@ -1,0 +1,44 @@
+.contact-body {
+  width: 50%;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid rgb(5, 5, 97);
+  margin: 100px 0px 0px 25%;
+  border-radius: 5px;
+}
+.contact-btn > .btn {
+  background-color: rgb(5, 5, 97);
+  border: none;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+.contact-btn {
+  text-align: center;
+}
+
+.input > .input-box {
+  margin-top: 5px;
+  width: 100%;
+}
+.contact-content {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-left: 25px;
+}
+.top-line {
+  font-size: small;
+  color: rgb(5, 5, 97);
+  margin: 0%;
+}
+.ctr-line {
+  font-size: smaller;
+  margin-bottom: 20px;
+}
+.bottom-line {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 700;
+  color: rgb(70, 66, 66);
+  font-size: medium;
+}

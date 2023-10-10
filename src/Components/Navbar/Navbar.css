@@ -1,0 +1,114 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 10px;
+  /* padding: 5px; */
+  border-bottom: 1px solid lightgray;
+}
+.brand-name {
+  font-weight: bolder;
+  font-size: xx-large;
+  color: rgb(2, 2, 110);
+  text-decoration: none;
+}
+.content {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.nav-content > ul > li > a {
+  margin-right: 25px;
+  text-decoration: none;
+  color: rgb(115, 129, 143);
+  font-size: small;
+}
+.nav-content > ul {
+  margin-bottom: 0%;
+}
+#share-button {
+  background-color: white;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.icon-container {
+  width: max-content;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.icon-link {
+  margin: 5px;
+  display: inline;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+}
+.share-icon {
+  color: black;
+}
+.share-icon::after {
+  margin-top: 100px;
+}
+.search {
+  margin-left: 15px;
+}
+.search-box {
+  width: 100px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  position: absolute;
+}
+.searchbox-icon {
+  position: relative;
+  margin-left: 10px;
+}
+.popup {
+  position: absolute;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(219, 219, 247);
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.popup button {
+  margin-top: 10px;
+  border-radius: 20px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.popup button:hover {
+  background-color: rgb(12, 12, 151);
+  color: white;
+}
+.contact-icon {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-location,
+  .search,
+  .share-container,
+  .contact-icon {
+    display: none;
+  }
+  .nav-content > ul > li > a {
+    font-size: 10px;
+  }
+  .brand-name {
+    font-size: medium;
+  }
+}

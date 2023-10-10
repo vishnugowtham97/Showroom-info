@@ -1,0 +1,17 @@
+.button-style > Button {
+  background-color: darkblue;
+  margin: 10px;
+  font-weight: 600;
+}
+.button-style {
+  text-align: start;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .button-style > Button {
+    font-size: 8px;
+  }
+  .button-style {
+    text-align: start;
+  }
+}

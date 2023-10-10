@@ -1,0 +1,63 @@
+/* Container for the entire component */
+.image-card-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 5rem;
+  background-color: lightgrey;
+}
+
+/* Individual row styles */
+.slider-row {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.slider-row.active {
+  display: flex;
+}
+
+/* Image styles */
+.slider-row img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Heading styles */
+.slider-row h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* Paragraph styles */
+.slider-row p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #222;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination-circle.active {
+  background-color: #007bff;
+}

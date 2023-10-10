@@ -1,0 +1,39 @@
+.main {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.flex_row {
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+}
+
+.clicked::before {
+  border: 5px solid black;
+}
+.clicked::after {
+  border: 5px solid red;
+}
+.gallery-img {
+  width: 50%;
+}
+.btns {
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .thumbnail {
+    width: 10%;
+  }
+  .btns {
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+  }
+  .gallery-img {
+    width: 50;
+  }
+}

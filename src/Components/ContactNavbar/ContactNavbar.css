@@ -1,0 +1,30 @@
+.contactnav-container {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+#dropdown-basic {
+  background-color: white;
+  color: rgb(88, 87, 87);
+  border: none;
+  margin-right: 10px;
+}
+.BsCart2 {
+  margin: 10px;
+  width: 25px;
+  height: 25px;
+}
+.PiUserCircle {
+  width: 25px;
+  height: 25px;
+}
+@media screen and (max-width: 768px) {
+  .contactnav-container {
+    width: 100%;
+    display: flex;
+  }
+  .content > li > Dropdown {
+    font-size: small;
+  }
+}

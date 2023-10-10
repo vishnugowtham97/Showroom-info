@@ -1,0 +1,18 @@
+.specialoffer-img {
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+}
+.offer-head {
+  text-align: center;
+}
+.offerbtn-container {
+  background-color: lightgray;
+  text-align: center;
+  padding: 30px;
+  margin: 50px auto;
+}
+.offerbtn-container > .offer-btn {
+  margin-right: 5px;
+  background-color: rgba(2, 2, 61, 0.945);
+}
