@@ -16,12 +16,12 @@ const AllRoutes = () => {
       <Bot />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/findcars" element={<FindCars />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/location" element={<Location />} />
-        <Route path="/connect" element={<SpecialOffer />} />
-        <Route path="/mobility" element={<Leasing />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="findcars" element={<FindCars />} />
+        <Route path="login" element={<Login />} />
+        <Route path="location" element={<Location />} />
+        <Route path="connect" element={<SpecialOffer />} />
+        <Route path="mobility" element={<Leasing />} />
       </Routes>
     </>
   );
