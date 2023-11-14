@@ -27,33 +27,69 @@ const Navbar = () => {
 
   const navigate = useNavigate();
 
-  const handleClick = () => {
+  const handleClick = (event) => {
+    event.preventDefault();
     navigate("/location");
+  };
+
+  const handleContact = (event) => {
+    event.preventDefault();
+    navigate("/contact");
+  };
+
+  const handleHome = (event) => {
+    event.preventDefault();
+    navigate("/");
+  };
+
+  const handleCars = (event) => {
+    event.preventDefault();
+    navigate("/findcars");
+  };
+
+  const handleConn = (event) => {
+    event.preventDefault();
+    navigate("/connect");
+  };
+
+  const handleMobility = (event) => {
+    event.preventDefault();
+    navigate("/mobility");
   };
 
   return (
     <div className="nav-container">
       <div className="brand-holder">
-        <a href="/" className="brand-name">
+        <a href="/" onClick={handleHome} className="brand-name">
           HYUNDAI
         </a>
       </div>
       <div className="nav-content">
         <ul className="content">
           <li>
-            <a href="/findcars">Find a Car</a>
+            <a href="/findcars" onClick={handleCars}>
+              Find a Car
+            </a>
           </li>
           <li>
-            <a href="/connect">Cl!ck to connect</a>
+            <a href="/connect" onClick={handleConn}>
+              Cl!ck to connect
+            </a>
           </li>
           <li>
-            <a href="/location">Connect to serv!ce</a>
+            <a href="/location" onClick={handleClick}>
+              Connect to serv!ce
+            </a>
           </li>
           <li>
-            <a href="/mobility">Mobility solution</a>
+            <a href="/mobility" onClick={handleMobility}>
+              Mobility solution
+            </a>
           </li>
           <li>
-            <a href="/contact">Contact us</a>
+            <a href="/contact" onClick={handleContact}>
+              Contact us
+            </a>
           </li>
         </ul>
       </div>
