@@ -28,7 +28,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("location");
+    navigate("/location");
   };
 
   return (
