@@ -28,7 +28,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/location");
+    navigate("location");
   };
 
   return (
@@ -41,22 +41,19 @@ const Navbar = () => {
       <div className="nav-content">
         <ul className="content">
           <li>
-            <a href="/findcars">Find a Car</a>
+            <a href="findcars">Find a Car</a>
           </li>
           <li>
-            <a href="/connect">Cl!ck to connect</a>
+            <a href="connect">Cl!ck to connect</a>
           </li>
           <li>
-            <a href="/location">Connect to serv!ce</a>
-          </li>
-          {/* <li>
-            <a href="/story">hyundai story</a>
-          </li> */}
-          <li>
-            <a href="/mobility">Mobility solution</a>
+            <a href="location">Connect to serv!ce</a>
           </li>
           <li>
-            <a href="/contact">Contact us</a>
+            <a href="mobility">Mobility solution</a>
+          </li>
+          <li>
+            <a href="contact">Contact us</a>
           </li>
         </ul>
       </div>
